@@ -15,6 +15,9 @@
 
 language: java
 
+os:
+  - linux-ppc64le
+  
 matrix:
   include:
     - stage: "Cache"
